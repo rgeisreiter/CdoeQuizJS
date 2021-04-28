@@ -59,6 +59,7 @@ function checkAnswer(e) {
     questionCycle();
   }
 }
+//var userScore = prompt("Your score was " + userScore);
 
 function startQuiz() {
   setInterval(countDown, 1000);
