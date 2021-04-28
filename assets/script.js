@@ -2,6 +2,7 @@ var qIndex = 0;
 var startBtn = document.getElementById("start"); //IMPORTANT -- DOM elements
 var timerTime = 30;
 var timer = document.getElementById("timer");
+var questionBox = document.getElementById("questionBox");
 var button1 = document.getElementById("button1");
 var button2 = document.getElementById("button2");
 var button3 = document.getElementById("button3");
@@ -39,7 +40,7 @@ var questions = [
 ];
 
 function countDown() {
-  timer.innerHTML = "<h2>Timer: ${timerTime}</h2>";
+  timer.innerHTML = "<h2> timer: ${timerTime}</h2>";
   timerTime--;
 }
 
